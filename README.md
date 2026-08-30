@@ -22,7 +22,7 @@ cd email-microservice-qa-suite
 2. Create and activate a virtual environment:
 python3 -m venv venv
 source venv/bin/activate
-# On Windows: venv\Scripts\activate
+--- On Windows: venv\Scripts\activate
 
 3. Install dependencies:
 4. pip install -r requirements.txt
@@ -43,7 +43,7 @@ k6 run k6_load_test.js
 
 OR
 
-download the test email microservice file and run Automated Functional & Security Tests (pytest) using pytest test_email_microservice.py -v
+download the test_email_microservice.py file and run Automated Functional & Security Tests (pytest) using pytest test_email_microservice.py -v
 
 
 Author
@@ -51,4 +51,3 @@ Hope David Michael
 
 Cybersecurity & Quality Assurance Engineer
 
-Save the test_email_microservice.py file and run it using pytest test_email_microservice.py -v
